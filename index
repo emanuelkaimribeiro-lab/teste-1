@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Agronegócio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2e6f40;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        nav {
+            background-color: #1e4629;
+            padding: 0.8rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+
+        article {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            color: #2e6f40;
+            margin-bottom: 1rem;
+        }
+
+        aside {
+            background: #e2ede4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            height: fit-content;
+        }
+
+        aside h3 {
+            color: #1e4629;
+            margin-bottom: 0.8rem;
+        }
+
+        aside ul {
+            list-style-type: square;
+            padding-left: 1.2rem;
+        }
+
+        aside ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #2e6f40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+
+        /* Responsividade para celulares */
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agronegócio Sustentável</h1>
+        <p>A força do campo movendo o futuro do planeta</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#importancia">Importância</a>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            
+            <main>
+                <article id="sobre">
+                    <h2>O que é o Agronegócio?</h2>
+                    <p>O agronegócio engloba toda a cadeia produtiva que vai desde a fabricação de insumos agrícolas, passando pela produção no campo, até a industrialização e distribuição dos produtos finais ao consumidor.</p>
+                    <p>Hoje, o setor combina tradição com alta tecnologia para alimentar o mundo de forma cada vez mais eficiente.</p>
+                </article>
+
+                <article id="tecnologia" style="margin-top: 2rem;">
+                    <h2>Tecnologia no Campo (Agrotechs)</h2>
+                    <p>A digitalização chegou com força ao setor rural. O uso de drones, sensores IoT, inteligência artificial e maquinários autônomos permite otimizar o uso de recursos como água e fertilizantes, aumentando a produtividade e reduzindo os impactos ambientais.</p>
+                </article>
+            </main>
+
+            <aside id="importancia">
+                <h3>Pilares do Setor</h3>
+                <ul>
+                    <li><strong>Segurança Alimentar:</strong> Produção de alimentos em larga escala.</li>
+                    <li><strong>Economia:</strong> Geração de empregos e forte impacto no PIB.</li>
+                    <li><strong>Exportação:</strong> Abastecimento de mercados internacionais.</li>
+                    <li><strong>Sustentabilidade:</strong> Manejo correto do solo e preservação de recursos.</li>
+                </ul>
+            </aside>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Portal do Agronegócio. Criado com HTML e CSS.</p>
+    </footer>
+
+</body>
+</html>
